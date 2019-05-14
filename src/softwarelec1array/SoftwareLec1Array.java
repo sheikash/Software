@@ -5,7 +5,6 @@
  */
 package softwarelec1array;
 
-import java.util.Scanner;
 
 /**
  *
@@ -16,20 +15,30 @@ public class SoftwareLec1Array {
    
     public static void main(String[] args) {
        
-        Scanner scanner = new Scanner(System.in);
-        char [] letterArray = new char[50];
+      
+        char[] pillBox=new char[7];
+        pillBox[0]='s';
+        pillBox[1]='t';
+        pillBox[2]='u';
+        pillBox[3]='d';
+        pillBox[4]='e';
+        pillBox[5]='n';
+        pillBox[6]='t';
         
-        System.out.println("Please enter a string: ");
-       // String userInput = scanner.nextLine();
+        for(int i=0;i<pillBox.length;i++)
+        {
+            System.out.print(pillBox[i]);
+        }
+            System.out.print("\n");
         
-        for(int i=0; i<10; i++){
-            char c = scanner.next().charAt(0);
-            letterArray[i] = c;
+        for(int i=pillBox.length-1;i>=0;i--)
+        {
+            System.out.print(pillBox[i]);
+        
         }
-        for (int i=0; i<10; i++){
-            System.out.println(" " + letterArray[i]);
-        }
+         System.out.print("\n");
         
     }
+    
     
 }
