@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package softwarelec1array;
+package PillBoxArray_Lec1;
 
 
 /**
  *
  * @author ashasheikh
  */
-public class SoftwareLec1Array {
+public class PillBoxArray_Lec1 {
 
    
     public static void main(String[] args) {
